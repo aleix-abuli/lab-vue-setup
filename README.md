@@ -25,8 +25,8 @@ We'll be following the official Vue.js guide for most of this lab.
 
   ```bash
   $ cd lab-vue-setup
-  $ yarn install
-  $ yarn dev
+  $ npm install # or npm i
+  $ npm run dev
   ```
 
 ## Submission
@@ -53,15 +53,9 @@ If you're working on Mac, remember you'll need to add the keyword "sudo" before 
 
 <!-- ## Create a new Vue project -->
 
-2. Next, you will proceed to create a new project. Creating a new project on Vue is as simple as inserting a command on your console once you've installed the CLI globally. You can see the exact steps to follow [in this link](https://cli.vuejs.org/guide/installation.html).
+2. Next, you will proceed to create a new project. Creating a new project on Vue is as simple as inserting a command on your console once you've installed the CLI globally. You can see the exact steps to follow [in this link](https://vuejs.org/guide/quick-start.html#creating-a-vue-application).
 
-Once you're creating a new project, you'll be able to choose which features you want. In this case, we want you to choose a few features manually:
-
-- Babel
-- Router
-- Linter / Formatter
-
-We also want you to create a Vue 2 project instead of a Vue 3 one. If you have any questions, the documentation is your best friend!
+Once you're creating a new project, you'll be able to choose which features you want.
 
 ## Instructions
 
@@ -95,7 +89,7 @@ Here's what you need to do:
 - Create a new button inside your component and show it on the home page.
 - Call the method `helloWorld()` when you click on your newly created button.
 
-If you need any help, [here's the link to the official documentation](https://vuejs.org/guide/essentials/event-handling.html#inline-handlers).
+If you need any help, [you can check this article's introduction](https://vuedose.tips/the-101-guide-to-script-setup-in-vue-3).
 
 ### Iteration 4 | Bonus | Creating two different routes and navigating between them
 
